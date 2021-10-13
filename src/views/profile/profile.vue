@@ -1,13 +1,127 @@
 <template>
-  <h2>个人</h2>
+  <div>
+    <scroll class="content">
+      <ul>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+      </ul>
+    </scroll>
+  </div>
 </template>
 
 <script>
+import Scroll from 'components/common/scroll/Scroll.vue'
+
 export default {
- name: 'profile'
+ name: 'profile',
+ components:{
+   Scroll,
+ }
 }
 </script>
 
-<style>
-
+<style scoped>
+  .content{
+    height: 300px;
+    background-color: pink;
+    overflow: hidden;
+  }
 </style>
